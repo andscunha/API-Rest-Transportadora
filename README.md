@@ -43,7 +43,97 @@ npm run start
 
 ---
 
-## 📕 Testes
+## 📦 Rotas HTTP
+
+### <b> GET /pedidos </b>
+
+Lista todos os pedidos da base de dados.
+Exemplo da resposta esperada:
+
+```
+{
+	"pedido": [
+		{
+			"ID": 1,
+			"enderecos_id": 1,
+			"status_id": 1,
+			"pacote_id": 1,
+			"opcoes_de_entrega": "Correio"
+		}
+	],
+	"erro": false
+}
+
+```
+
+### <b> GET /pedidos/id/:id </b>
+
+Retorna o pedido de acordo com o id. Campo ":id" deverá ser substituído pelo id do pedido escolhido.
+Exemplo da resposta esperada:
+
+```
+{
+	"pedido": {
+		"ID": 1,
+		"enderecos_id": 1,
+		"status_id": 1,
+		"pacote_id": 1,
+		"opcoes_de_entrega": "Correio"
+	},
+	"erro": false
+}
+```
+
+### <b> POST /pedidos </b>
+
+Insere um novo pedido na base de dados.
+
+Exemplo da resposta esperada:
+
+```
+{
+	"mensagem": "Pedido efetuado com sucesso!",
+	"pedido": {
+		"enderecos_id": 7,
+		"status_id": 7,
+		"pacote_id": 7,
+		"opcoes_de_entrega": "Sedex"
+	},
+	"erro": false
+}
+```
+
+### <b> PUT /pedidos/id/:id </b>
+
+Atualiza um pedido na base de dados. Campo ":id" deverá ser substituído pelo id do pedido a ser atualizado.
+
+Exemplo da resposta esperada:
+
+```
+{
+	"mensagem": "Pedido de id 7 atualizado com sucesso",
+	"pedido": {
+		"opcoes_de_entrega": "Retirada no local"
+	},
+	"erro": false
+}
+```
+
+### <b> DELETE /books/book/{id} </b>
+
+Deleta o pedido escolhido da base de dados.
+Exemplo da resposta esperada:
+
+```
+{
+	"pedido": "Pedido deletado com sucesso!",
+	"erro": false
+}
+```
+
+---
+
+## 📬 Testes
 
 <p align="justify">Este projeto conta com um arquivo de testes para conferir o funcionamento das rotas da API. Para utilizá-lo, é necessário que o banco de dados esteja populado. Os testes podem ser rodados com o comando</p>
 
@@ -53,7 +143,7 @@ npm run test
 
 ---
 
-## 📔 Desenvolvido por
+## 🚛 Desenvolvido por
 
 <b>Anderson da Cunha Vidal 👨🏾‍💻</b>
 
