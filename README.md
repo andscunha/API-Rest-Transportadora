@@ -133,16 +133,6 @@ Exemplo da resposta esperada:
 
 ---
 
-## 📬 Testes
-
-<p align="justify">Este projeto conta com um arquivo de testes para conferir o funcionamento das rotas da API. Para utilizá-lo, é necessário que o banco de dados esteja populado. Os testes podem ser rodados com o comando</p>
-
-```
-npm run test
-```
-
----
-
 ## 🚛 Desenvolvido por
 
 <b>Anderson da Cunha Vidal 👨🏾‍💻</b>
