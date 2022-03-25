@@ -13,3 +13,4 @@ generalMiddleware(app);
 
 pedidosController(app, database);
 
+export default app
