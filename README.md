@@ -4,7 +4,7 @@
 
 ---
 
-## 📘 Pré-requisitos
+## 📮 Pré-requisitos
 
 - <a href="https://nodejs.org/en/">Node.Js</a> - v. 16.13.2
 - <a href="https://www.npmjs.com/">NPM</a> - v. 8.1.2
@@ -15,7 +15,7 @@
 
 ---
 
-## 📖 Iniciando da aplicação
+## 📨 Iniciando da aplicação
 
  <p>Rode os comandos a seguir no terminal ou PoweShell.</p>
  
