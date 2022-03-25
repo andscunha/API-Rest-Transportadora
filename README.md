@@ -11,7 +11,6 @@
 - <a href="https://expressjs.com/pt-br/">Express</a> - v. 4.17.3
 - <a href="https://www.npmjs.com/package/sqlite3">SQLite</a> - v. 5.0.0
 - <a href="https://nodemon.io/">Nodemon</a> - v. 2.0.15
-- <a href="https://www.npmjs.com/package/supertest"> Supertest</a> - v. 6.2.2
 
 ---
 
