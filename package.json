@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/Ands1776/API-Rest-Transportadora/issues"
   },
-  "homepage": "https://github.com/Hudson-Uchoa/API-Rest-Transportadora#readme",
+  "homepage": "https://github.com/Ands1776/API-Rest-Transportadora#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.3",
