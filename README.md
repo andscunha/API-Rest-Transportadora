@@ -119,7 +119,7 @@ Exemplo da resposta esperada:
 }
 ```
 
-### <b> DELETE /books/book/{id} </b>
+### <b> DELETE /pedidos/id/:id </b>
 
 Deleta o pedido escolhido da base de dados.
 Exemplo da resposta esperada:
